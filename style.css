@@ -4,7 +4,6 @@ body  {
 }
 section {
     display: flex;
-    justify-content: space-around;
 }
 .title {
     font-size: 50px;
@@ -39,12 +38,13 @@ p {
 .all-divisions {
     text-align: center;
     padding-bottom: 100px;
+    flex-wrap: wrap;
     display: flex;
 }
 .divisions {
     width: 300px;
+    margin: 39px;
     padding-bottom: 45px;
-    margin: 20px;
     box-shadow: 10px 10px 40px gray;
 }
 .divisions img {
